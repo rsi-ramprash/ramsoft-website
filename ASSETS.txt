@@ -1,0 +1,12 @@
+header logo: https://cdn.prod.website-files.com/666856968a13d14b838d5230/666c7a10de2ca121de796e5c_RamSoft-Logo-light.svg
+footer logo: https://cdn.prod.website-files.com/666856968a13d14b838d5230/666ca1a7ad19dcfab89896e8_RamSoft-Logo-white-blue.svg
+accreditations logo
+https://cdn.prod.website-files.com/666856968a13d14b838d5230/666cb5d6ff7a65fee9695346_HIPAA-Logo.svg
+https://cdn.prod.website-files.com/666856968a13d14b838d5230/666cb5f23336953127f2ffb9_AICPA%20SOC-Logo.svg
+https://cdn.prod.website-files.com/666856968a13d14b838d5230/667c3a781d15ce16f286725d_fda_510k_white.svg
+https://cdn.prod.website-files.com/666856968a13d14b838d5230/666cb680216b1732b5318421_PIPEDA-Logo.svg
+https://cdn.prod.website-files.com/666856968a13d14b838d5230/666cb699ec31291569d5e4dc_CDMR-Logo.svg
+https://cdn.prod.website-files.com/666856968a13d14b838d5230/666cb6b1dd7ba0cab2c830b0_ICSA%20Labs-Logo.svg
+https://cdn.prod.website-files.com/666856968a13d14b838d5230/666cb6d0f373b6ead40f8e44_IHE-Logo.svg
+https://cdn.prod.website-files.com/666856968a13d14b838d5230/67d1bedd278158e66f76c395_TUV-SUD-logo.svg
+https://cdn.prod.website-files.com/666856968a13d14b838d5230/666cb705e580d56911b180a9_SureScripts-Logo.svg
