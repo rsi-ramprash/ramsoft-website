@@ -41,7 +41,6 @@ yarn-error.log*
 next-env.d.ts
 
 # payload
-payload.db
 payload.db-journal
 src/payload-types.ts
 

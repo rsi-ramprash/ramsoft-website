@@ -14,6 +14,17 @@ type Props = {
   params: Promise<{ slug: string }>;
 };
 
+export async function generateStaticParams() {
+  const payload = await getPayloadClient();
+  const blogs = await payload.find({
+    collection: "blogs",
+    limit: 100,
+    depth: 0,
+  });
+
+  return blogs.docs.map((blog) => ({ slug: blog.slug }));
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const payload = await getPayloadClient();
