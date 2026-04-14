@@ -1,6 +1,7 @@
 import UtilityBar from "@/components/UtilityBar";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import PrivacyTableOfContents from "@/components/PrivacyTableOfContents";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -31,8 +32,17 @@ export default function PrivacyPolicyPage() {
         </section>
 
         {/* Content */}
-        <section className="py-14 lg:py-20">
-          <div className="mx-auto max-w-[860px] px-6 privacy-prose">
+        <section id="top" className="py-14 lg:py-20">
+          <div className="mx-auto max-w-[1200px] px-6 lg:flex lg:gap-10">
+            {/* Sidebar TOC */}
+            <aside className="hidden lg:block lg:w-[260px] shrink-0">
+              <div className="sticky top-[88px]">
+                <PrivacyTableOfContents />
+              </div>
+            </aside>
+
+            {/* Main Content */}
+            <div className="flex-1 min-w-0 privacy-prose">
             <p>
               RamSoft is committed to protecting your privacy. This privacy
               policy describes our collection, use, and disclosure of your
@@ -46,7 +56,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Definitions */}
-            <h2>Definitions</h2>
+            <h2 id="definitions">Definitions</h2>
             <p>For the purposes of this Privacy Policy:</p>
             <p>
               <strong>You</strong> means the individual or entity accessing or
@@ -109,7 +119,7 @@ export default function PrivacyPolicyPage() {
             </ul>
 
             {/* Collecting and Using Your Personal Data */}
-            <h2>Collecting and Using Your Personal Data</h2>
+            <h2 id="collecting-and-using-your-personal-data">Collecting and Using Your Personal Data</h2>
             <h3>Personal Data</h3>
             <p>
               While using our Service, we may ask you to provide us with
@@ -139,7 +149,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Use of Your Personal Data */}
-            <h2>Use of Your Personal Data</h2>
+            <h2 id="use-of-your-personal-data">Use of Your Personal Data</h2>
             <p>
               The Company may use Personal Data for the following purposes:
             </p>
@@ -197,7 +207,7 @@ export default function PrivacyPolicyPage() {
             </ul>
 
             {/* Retention */}
-            <h2>Retention of Your Personal Data</h2>
+            <h2 id="retention-of-your-personal-data">Retention of Your Personal Data</h2>
             <p>
               We will retain and use your Personal Data to the extent
               necessary to comply with our legal obligations or comply with
@@ -210,7 +220,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Transfer */}
-            <h2>Transfer of Your Personal Data</h2>
+            <h2 id="transfer-of-your-personal-data">Transfer of Your Personal Data</h2>
             <p>
               Your information, including Personal Data, is processed by the
               Company in any place where the parties involved in the
@@ -229,7 +239,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Disclosure */}
-            <h2>Disclosure of Your Personal Data</h2>
+            <h2 id="disclosure-of-your-personal-data">Disclosure of Your Personal Data</h2>
             <h3>Business Transactions</h3>
             <p>
               If the Company is involved in a merger, acquisition or asset
@@ -255,7 +265,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Security */}
-            <h2>Security of Your Personal Data</h2>
+            <h2 id="security-of-your-personal-data">Security of Your Personal Data</h2>
             <p>
               The security of your Personal Data is important to us. No
               method of transmission over the Internet, or method of
@@ -267,7 +277,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Breach Notification */}
-            <h2>Breach Notification</h2>
+            <h2 id="breach-notification">Breach Notification</h2>
             <p>
               In the event of a personal data breach that is likely to result
               in a risk to the rights and freedoms of individuals, the Company
@@ -280,7 +290,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Deletion */}
-            <h2>Deletion of Personal Data</h2>
+            <h2 id="deletion-of-personal-data">Deletion of Personal Data</h2>
             <p>
               Upon issuing written instructions to RamSoft to cease processing
               of Personal Data, whether due to withdrawal of consent,
@@ -298,7 +308,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Children's Privacy */}
-            <h2>Children&apos;s Privacy</h2>
+            <h2 id="childrens-privacy">Children&apos;s Privacy</h2>
             <p>
               Our services may involve the collection and processing of
               personal information relating to individuals who are below the
@@ -315,7 +325,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Additional Jurisdictions */}
-            <h2>Additional Information for Certain Jurisdictions</h2>
+            <h2 id="additional-information">Additional Information for Certain Jurisdictions</h2>
             <p>
               Below provides additional information about the collection, use,
               and sharing of privacy data in various regions of the world.
@@ -324,7 +334,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* CCPA */}
-            <h2>I — California Consumer Privacy Act (CCPA)</h2>
+            <h2 id="ccpa">I — California Consumer Privacy Act (CCPA)</h2>
             <p>
               In order to exercise any of your rights under the CCPA, and if
               you are a California resident, you may reach out using the
@@ -358,7 +368,7 @@ export default function PrivacyPolicyPage() {
             </ul>
 
             {/* PIPEDA */}
-            <h2>II — PIPEDA</h2>
+            <h2 id="pipeda">II — PIPEDA</h2>
             <p>
               We understand that you may have preferences about how your data
               is used. If you would like to review or request changes to any
@@ -368,7 +378,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* DPDPA */}
-            <h2>
+            <h2 id="dpdpa">
               III — Digital Personal Data Protection Act (DPDPA) — India
             </h2>
             <p>
@@ -409,7 +419,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* GDPR */}
-            <h2>IV — European Economic Area — GDPR</h2>
+            <h2 id="gdpr">IV — European Economic Area — GDPR</h2>
 
             <h3>1. Contact</h3>
             <p>
@@ -516,7 +526,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Links to Other Websites */}
-            <h2>Links to Other Websites</h2>
+            <h2 id="links-to-other-websites">Links to Other Websites</h2>
             <p>
               Our Service may contain links to other websites that are neither
               operated nor controlled in any way by us. If you click on a
@@ -528,7 +538,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Changes */}
-            <h2>Changes to This Privacy Policy</h2>
+            <h2 id="changes">Changes to This Privacy Policy</h2>
             <p>
               We may update our Privacy Policy from time to time. We will
               update the &quot;Last updated&quot; date at the top of this
@@ -539,7 +549,7 @@ export default function PrivacyPolicyPage() {
             </p>
 
             {/* Contact Us */}
-            <h2>Contact Us</h2>
+            <h2 id="contact-us">Contact Us</h2>
             <p>
               For matters related to data protection and privacy, you may
               contact our privacy team at{" "}
@@ -550,6 +560,7 @@ export default function PrivacyPolicyPage() {
               or DPDPA, you may contact our Data Protection Officer at:{" "}
               <a href="mailto:dpo@ramsoft.com">dpo@ramsoft.com</a>
             </p>
+            </div>
           </div>
         </section>
       </main>
