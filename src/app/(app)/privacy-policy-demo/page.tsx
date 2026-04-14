@@ -19,9 +19,13 @@ export default function PrivacyPolicyPage() {
         {/* Hero Banner */}
         <section className="bg-dodger py-16 lg:py-24">
           <div className="mx-auto max-w-[1200px] px-6">
-            <p className="font-[family-name:var(--font-manrope)] text-spring font-bold text-[11px] uppercase tracking-[2px] mb-4">
-              Legal
-            </p>
+            <nav className="flex items-center gap-2 font-[family-name:var(--font-manrope)] text-sm mb-8">
+              <a href="/" className="text-white/70 hover:text-white transition-colors">Home</a>
+              <span className="text-white/40">/</span>
+              <span className="text-white/70">Legal</span>
+              <span className="text-white/40">/</span>
+              <span className="text-white font-semibold">Privacy Policy</span>
+            </nav>
             <h1 className="font-[family-name:var(--font-hanken)] font-extrabold text-[36px] lg:text-[56px] text-white leading-tight">
               Privacy Policy
             </h1>
