@@ -29,9 +29,6 @@ export default function PrivacyPolicyPage() {
             <h1 className="font-[family-name:var(--font-hanken)] font-extrabold text-[36px] lg:text-[56px] text-white leading-tight">
               Privacy Policy
             </h1>
-            <p className="font-[family-name:var(--font-manrope)] text-white/70 text-base lg:text-lg mt-4">
-              Last updated: April 1, 2026
-            </p>
           </div>
         </section>
 
@@ -47,6 +44,9 @@ export default function PrivacyPolicyPage() {
 
             {/* Main Content */}
             <div className="flex-1 min-w-0 privacy-prose">
+            <p className="text-navy-mid font-semibold text-sm mb-6">
+              *Last updated: April 1, 2026
+            </p>
             <p>
               RamSoft is committed to protecting your privacy. This privacy
               policy describes our collection, use, and disclosure of your
